@@ -1,5 +1,5 @@
 name: Deploy on S3
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   run:
     runs-on: ubuntu-latest
